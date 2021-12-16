@@ -5,7 +5,10 @@
   "main": "server.js",
   "scripts": {
     "test": "npm start",
-    "start": "nodemon server.js"
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "14.17.5"
   },
   "author": "Gabriel Alabi",
   "license": "ISC",
