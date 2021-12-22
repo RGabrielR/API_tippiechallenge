@@ -14,6 +14,5 @@ app.get('/', cors(), (req, res) => {
     res.json(employeesData).catch(error =>{
       res.json(error)
 })
-
-
+});
 app.listen(port);
